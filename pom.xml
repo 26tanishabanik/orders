@@ -21,6 +21,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <prometheus.version>0.0.21</prometheus.version>
+        <!-- 3.6+ speaks OP_MSG, the protocol eBPF tracing decodes; Boot 1.4 pins 3.2.2. -->
+        <mongodb.version>3.12.14</mongodb.version>
     </properties>
 
     <dependencies>
